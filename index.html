@@ -96,105 +96,34 @@
           
 
         <section class="destacados container mt-5">
-            <h2>Secciones Destacadas</h2>
+            
             <div class="row">
-                <!-- Filtro de ordenación -->
+               
                 <div class="col-12 mb-4">
-                  <select id="priceFilter" class="form-select">
-                    <option value="asc">Ordenar por: Menor a mayor precio</option>
-                    <option value="desc">Ordenar por: Mayor a menor precio</option>
-                  </select>
+                  <ul class="menu">
+                        <li>
+                            <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                        </li>
+                        <li>
+                            <button id="campera" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Abrigos</button>
+                        </li>
+                        <li>
+                            <button id="top" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Top</button>
+                        </li>
+                        <li>
+                            <button id="pantalon" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Pantalones</button>
+                        </li>
+                        <li>
+                          <button id="conjunto" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Noche</button>
+                      </li>
+                      <li>
+                        <button id="body" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Body</button>
+                      </li>
+                  </ul>
+        
                 </div>
-            <div class="row">
-                <!-- Producto 1 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/mini-simil-cuero2.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Mini de Jean</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$30000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 2 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/corset-microtul-top.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Corset de Jean</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$20000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 3 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/mini-simil-cuero.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Mini Juli</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$14000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 4 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/top-ribb.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Top Eve</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$10000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 5 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/strapless-bengalina.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title">Straples Rena</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$8000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 6 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/top-simil-cuero.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Top Cuero</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$7000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 7 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/top-simil.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Top Ana</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$15000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Producto 8 -->
-                <div class="col-md-3 mb-4">
-                  <div class="card" style="width: 100%;">
-                    <img src="./img/new_in/short-simil-cuero.jpg" class="card-img-top" alt="Campera de Jean">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color:black;text-align: center;">Short Kari</h5>
-                      <p class="card-text" style="color:black;text-align: center;">$18000</p>
-                      <a href="#" class="btn btn-primary w-100">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+                <div id="contenedor-productos" class="row">
         </section>
 
         <div class="fixed">
@@ -215,6 +144,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 
 </html>

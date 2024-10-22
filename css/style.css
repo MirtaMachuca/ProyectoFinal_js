@@ -413,6 +413,9 @@ footer img{
     .card .card-text {
       text-align: center !important;
     }
+    .card-text{
+        color:black !important;
+    }
     
 }
 
