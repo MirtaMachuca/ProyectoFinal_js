@@ -251,34 +251,5 @@ botonesCategoria.forEach(boton => {
         }
     });
 });
-/*
-botonesCategoria.forEach(boton=>{
-    boton.addEventListener("click",(e)=>{
-        botonesCategoria.forEach(boton => boton.classList.remove("active"));
 
-
-        e.currentTarget.classList.add("active")
-        if(e.currentTarget.id!="todos"){
-            let prodCategoria=productos.find(producto=>producto.categoria.id === e.currentTarget.id);
-            tituloPrinciplal.innerHTML=prodCategoria.categoria.nombre
-            const prodBoton=productos.filter(producto.categoria.id ===e.currentTarget.id);
-            cargarProductos(prodBoton);
-        }else{
-            tituloPrinciplal.innerHTML= "Todos los Productos";
-            cargarProductos(productos);
-        }
-    })
-})*/
-    
-/*
-    <div class="col-md-3 mb-4 producto">
-    <div class="card" style="width: 100%;">
-      <img src="./img/new_in/mini-simil-cuero2.jpg" class="card-img-top" alt="Campera de Jean">
-      <div class="card-body">
-        <h5 class="card-title" style="color:black;text-align: center;">Mini de Jean</h5>
-        <p class="card-text" style="color:black;text-align: center;">$30000</p>
-        <a href="#" class="btn btn-primary w-100">Comprar</a>
-      </div>
-    </div>
- */
 
