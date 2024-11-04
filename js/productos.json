@@ -1,0 +1,192 @@
+[
+    {
+        "id": "mini-cuero",
+        "titulo": "Mini 01",
+        "imagen": "../img/new_in/mini-simil-cuero.jpg",
+        "categoria": {
+            "nombre": "Cuero",
+            "id": "mini"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "mini-02",
+        "titulo": "Mini 02",
+        "imagen": "../img/new_in/mini-simil-cuero2.jpg",
+        "categoria": {
+            "nombre": "Mini Kari",
+            "id": "mini"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "mini-03",
+        "titulo": "Mini 03",
+        "imagen": "../img/new_in/short-pollera-simil.jpg",
+        "categoria": {
+            "nombre": "Mini Ara",
+            "id": "mini"
+        },
+        "precio": 11000
+    },
+    {
+        "id": "mini-04",
+        "titulo": "Mini 04",
+        "imagen": "../img/new_in/short-pollera-simil.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "top-01",
+        "titulo": "Top 01",
+        "imagen": "../img/new_in/top-ribb-shine.jpg",
+        "categoria": {
+            "nombre": "Top",
+            "id": "top"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "top-02",
+        "titulo": "top 02",
+        "imagen": "../img/new_in/top-ribb.jpg",
+        "categoria": {
+            "nombre": "Top",
+            "id": "top"
+        },
+        "precio": 7500
+    },
+    {
+        "id": "top-03",
+        "titulo": "Top 03",
+        "imagen": "../img/new_in/top-simil-cuero-top.jpg",
+        "categoria": {
+            "nombre": "Top",
+            "id": "top"
+        },
+        "precio": 9000
+    },
+    {
+        "id": "top-04",
+        "titulo": "Top 03",
+        "imagen": "../img/new_in/top-simil-cuero.jpg",
+        "categoria": {
+            "nombre": "Top",
+            "id": "top"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "campera-01",
+        "titulo": "Campera 01",
+        "imagen": "../img/campera.jpg",
+        "categoria": {
+            "nombre": "Campera",
+            "id": "campera"
+        },
+        "precio": 100000
+    },
+    {
+        "id": "campera-02",
+        "titulo": "Campera 02",
+        "imagen": "../img/campera2.jpg",
+        "categoria": {
+            "nombre": "Campera",
+            "id": "campera"
+        },
+        "precio": 80000
+    },
+    {
+        "id": "campera-03",
+        "titulo": "Campera 03",
+        "imagen": "../img/campera4.jpg",
+        "categoria": {
+            "nombre": "Campera",
+            "id": "campera"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "campera-04",
+        "titulo": "Campera 04",
+        "imagen": "../img/campera5.jpg",
+        "categoria": {
+            "nombre": "Campera",
+            "id": "campera"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "body-01",
+        "titulo": "Body 01",
+        "imagen": "../img/new_in/body.jpg",
+        "categoria": {
+            "nombre": "Body",
+            "id": "body"
+        },
+        "precio": 9600
+    },
+    {
+        "id": "conjuntos-01",
+        "titulo": "Conjuntos 01",
+        "imagen": "../img/new_in/conjunto1.jpg",
+        "categoria": {
+            "nombre": "Conjunto",
+            "id": "conjunto"
+        },
+        "precio": 75000
+    },
+    {
+        "id": "conjunto-02",
+        "titulo": "Conjunto 02",
+        "imagen": "../img/new_in/conjunto2.jpg",
+        "categoria": {
+            "nombre": "Conjunto",
+            "id": "conjunto"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "conjunto-03",
+        "titulo": "Conjunto 03",
+        "imagen": "../img/new_in/conjunto3.jpg",
+        "categoria": {
+            "nombre": "Conjunto",
+            "id": "conjunto"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "../img/new_in/pantalon1.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalon"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "../img/new_in/pantalon2.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalon"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "../img/new_in/pantalon3.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalon"
+        },
+        "precio": 13000
+    }
+]
