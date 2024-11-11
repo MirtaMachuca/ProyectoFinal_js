@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -34,11 +35,12 @@
                     <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Productos
                     </a>
-                   
                     <ul class="menu dropdown-menu">
-                      <li><a id="todos" class="dropdown-item boton-categoria" href="./pages/productos.html">Pantalon</a></li>
-                      <li><a id="campera" class="dropdown-item boton-categoria" href="./pages/productos.html">Buzo</a></li>
-                      <li><a id="top" class="dropdown-item boton-categoria" href="./pages/productos.html">Denim</a></li>
+                      <li><a id="todos" class="dropdown-item boton-categoria" href="./page/productos.html">Pantalon</a></li>
+                      <li><a id="campera" class="dropdown-item boton-categoria" href="./page/productos.html">Buzo</a></li>
+                      <li><a id="top" class="dropdown-item boton-categoria" href="./page/productos.html">Denim</a></li>
+                      <li><a id="conjunto" class="dropdown-item boton-categoria" href="./page/productos.html">Conjuntos</a></li>
+                      <li><a id="body" class="dropdown-item boton-categoria" href="./page/productos.html"> Body</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -100,31 +102,26 @@
             
             <div class="row">
                
-                <div class="col-12 mb-4">
-                  <ul class="menu">
-                        <li>
-                            <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
-                        </li>
-                        <li>
-                            <button id="campera" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Abrigos</button>
-                        </li>
-                        <li>
-                            <button id="top" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Top</button>
-                        </li>
-                        <li>
-                            <button id="pantalon" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Pantalones</button>
-                        </li>
-                        <li>
-                          <button id="conjunto" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Noche</button>
-                      </li>
-                      <li>
-                        <button id="body" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Body</button>
-                      </li>
-                  </ul>
-        
-                </div>
-                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
-                <div id="contenedor-productos" class="row">
+                
+                <div class="container mt-5">
+                  <div class="row">
+                      <div class="col-12 mb-4">
+                          
+                          <select id="selector-categoria" class="form-select">
+                              <option value="todos" selected>Todos los productos</option>
+                              <option value="campera">Abrigos</option>
+                              <option value="top">Top</option>
+                              <option value="pantalon">Pantalones</option>
+                              <option value="conjunto">Conjuntos</option>
+                              <option value="body">Body</option>
+                          </select>
+                      </div>
+              
+                      <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+                      <div id="contenedor-productos" class="row"></div>
+                  </div>
+              </div>
+              
         </section>
 
         <div class="fixed">

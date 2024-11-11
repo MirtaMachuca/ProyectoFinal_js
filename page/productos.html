@@ -78,29 +78,24 @@
             
         <div class="row">
            
-            <div class="col-12 mb-4">
-              <ul class="menu">
-                    <li>
-                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
-                    </li>
-                    <li>
-                        <button id="campera" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Abrigos</button>
-                    </li>
-                    <li>
-                        <button id="top" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Top</button>
-                    </li>
-                    <li>
-                        <button id="pantalon" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Pantalones</button>
-                    </li>
-                    <li>
-                      <button id="conjunto" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Noche</button>
-                  </li>
-                  <li>
-                    <button id="body" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Body</button>
-                  </li>
-              </ul>
-    
+          <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <!-- Selector de categorías -->
+                    <select id="selector-categoria" class="form-select">
+                        <option value="todos" selected>Todos los productos</option>
+                        <option value="campera">Abrigos</option>
+                        <option value="top">Top</option>
+                        <option value="pantalon">Pantalones</option>
+                        <option value="conjunto">Noche</option>
+                        <option value="body">Body</option>
+                    </select>
+                </div>
+        
+               
             </div>
+        </div>
+        
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
             <div id="contenedor-productos" class="row">
     </section>
